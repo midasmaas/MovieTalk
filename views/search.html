@@ -1,0 +1,54 @@
+<div class="text-xl">Zoek films</div>
+
+<input
+  class=""
+  type="text"
+  name="zoekBalkHTML"
+  id="zoekBalkHTML"
+  placeholder="zoek naar films"
+/>
+
+<section class="relative z-0 flex flex-col">
+  <ul class="z-0 relative" id="zoekResultatenHTML"></ul>
+  <div
+    id="filmInfo"
+    class="hidden z-56 absolute bg-red-300 flex flex-col w-52 h-4/5"
+  >
+    <button id="verwijderInfo">X</button>
+
+    <p id="titelID"></p>
+
+    <p id="datumID"></p>
+
+    <p>
+      Waar keek je?
+    </p>
+
+    <button id="askButton">Vind locatie</button>
+    <p>
+      Je locatie:
+    </p>
+    <div id="target"></div>
+
+
+
+
+<ul class="z-0 relative" id="zoekResultatenHTML"></ul>
+
+
+
+
+
+  <div class="slidecontainer">
+    <input type="range" min="0" max="5" value="3" class="slider" id="sterRating">
+  </div>
+
+  <button id="tijdlijnVoegToe">
+    voeg toe
+  </button>
+
+  </div>
+
+ 
+  <script src="../js/zoek.js"></script>
+</section>
